@@ -1,0 +1,91 @@
+<html>
+  <head>
+  <title> Forms </title>
+  </head>
+
+  <body>
+    <h2>What is your name?</h2>
+
+    <form action="" method="get">
+      <p>Name
+        <input type="text" name="Name" size="20" maxlength="30" />
+      </p>
+    </form> <hr />
+
+    <h3>What is your favorite sport? </h3>
+
+    <form action="" method="get">
+      <p>
+        <input type="radio" name="sportChoice" value="basketball" checked="checked" /> basketball
+        <input type="radio" name="sportChoice" value="football" /> football
+        <input type="radio" name="sportChoice" value="soccer" /> soccer
+        <input type="radio" name="sportChoice" value="baseball" /> baseball
+        <input type="radio" name="sportChoice" value="lacrosse" /> lacrosse
+        <input type="radio" name="sportChoice" value="hockey" /> hockey
+        <input type="radio" name="sportChoice" value="golf" /> golf
+        <input type="radio" name="sportChoice" value="other" /> other
+      </p>
+    </form>
+ <hr />
+    <form action="" method="get">
+      <p>What is your favorite drink?</p>
+      <select name="drinkPreference">
+        <option value="Apple Juice">Apple Juice</option>
+        <option value="Water">Water</option>
+        <option value="Orange Juice">Orange Juice</option>
+        <option value="Soda">Soda</option>
+        <option value="Powerade">Powerade</option>
+        <option value="Enery Drinks">Energy Drinks</option>
+        <option value="Smoothies">Smoothies</option>
+        <option value="Diet Soda">Diet Soda</option>
+        <option value="Lemonade">Lemonade</option>
+        <option value="Cranberry Juice">Cranberry Juice</option>
+      </select>
+    </form>
+    <hr />
+    <form action="" method="get">
+      <p>What months have your favorite weather?</p>
+      <select name="Birth Month" size="3" multiple="multiple">
+        <option value="january" selected="selected">January</option>
+        <option value="february">February</option>
+        <option value="march">March</option>
+        <option value="april">April</option>
+        <option value="may">May</option>
+        <option value="june">June</option>
+        <option value="july">July</option>
+        <option value="august">August</option>
+        <option value="september">September</option>
+        <option value="october">October</option>
+        <option value="november">November</option>
+        <option value="december">December</option>
+      </select>
+    </form>
+    <hr />
+    <fieldset>
+      <legend>Where are you from?</legend>
+        <input type="text" name="State" />
+      </label>
+      <label>State
+        <br />
+        <input type="text" name="City" />
+      </label>
+      <label>City
+        <br />
+        <input type="text" name="School" />
+      </label>
+      <label>School
+      </label>
+      <br />
+      Grade:
+      <input id="Freshman" type="radio" name="Grade" value="9">
+      <label for="Freshman">Freshman</label>
+      <input id="Sophomore" type="radio" name="Grade" value="10">
+      <label for="Sophomore">Sophomore</label>
+      <input id="Junior" type="radio" name="Grade" value="11">
+      <label for="Junior">Junior</label>
+      <input id="Senior" type="radio" name="Grade" value="12">
+      <label for="Senior">Senior</label>
+    </fieldset>
+
+  </body>
+</html>
