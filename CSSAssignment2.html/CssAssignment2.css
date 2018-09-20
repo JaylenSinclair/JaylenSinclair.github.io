@@ -1,0 +1,71 @@
+table{
+border-style: groove;
+border-color: #5cc543;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+border-width: 10px;
+padding-left: 3px;
+padding-top: 7px;
+padding-bottom: 7px;
+border-spacing: 7px;
+
+}
+th{
+border-style: solid;
+border-width: medium;
+border-bottom-width: 10px;
+height: 55px;
+font-style: italic;
+
+
+}
+
+tr.even:hover{
+background-color:#bbbbee;
+}
+
+tr.odd:hover{
+background-color:#77dddd;
+
+}
+
+td{
+border-color: #000000;
+border-style: solid;
+border-width: 2px;
+padding-left: 3px;
+text-align: center;
+margin-left: auto;
+margin-right: auto;
+padding-bottom: 15px;
+padding-right: 15px;
+padding-top: 15px;
+padding-left: 5px;
+}
+ol.italian{
+  text-align: left;
+  padding-top: 5px;
+
+}
+
+ul{
+  list-style-type: circle;
+  background-color: #ed3833;
+  border-style: dashed;
+  border-color: #3a811d;
+  border-width: thick;
+  text-align: left;
+}
+
+ol.fruit{
+  background-color: #f5a440;
+  border-style: dotted;
+  border-color: #0000ff;
+  list-style-type: upper-roman;
+  text-align: left;
+  border-width: thick;
+  margin-left: auto;
+  margin-right: auto;
+
+}
