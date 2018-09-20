@@ -1,0 +1,44 @@
+h1{
+text-align: center;
+}
+body{
+background-image: url(background.jpg);
+background-position: center;
+text-align: center;
+}
+
+img{
+  width: 270px;
+  height: 270px;
+  margin-left: auto;
+  margin-right: auto;
+}
+div{
+  background-color: #89cff0;
+  height: 310px;
+  width: 325px;
+  border-style: groove;
+  border-color: #ff0000;
+  text-align: center;
+  display: inline-block;
+  position: relative;
+}
+
+}
+figure {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+figcaption {
+  font-size: 17px;
+}
+
+p{
+  font-size: 17px;
+  font-style: serif, times;
+  text-align: center;
+  width: 575px;
+  margin-left: auto;
+  margin-right: auto;
+}
