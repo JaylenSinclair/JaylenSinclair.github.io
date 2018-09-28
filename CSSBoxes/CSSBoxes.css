@@ -1,0 +1,58 @@
+body{
+  width:960px;
+}
+
+#one{
+  width: 940px;
+  height: 175px;
+  background-color: #ff0000;
+  float:none;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+div.two{
+  width: 460px;
+  height: 175px;
+  background-color: #ffaa00;
+  float: left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+div.three{
+  width: 300px;
+  height: 175px;
+  background-color: #dfcf00;
+  float:left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+div.four{
+  width: 220px;
+  height: 175px;
+  background-color: #ddef09;
+  float:left;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+}
+
+  div.five{
+    width: 140px;
+    height: 100px;
+    background-color: #aaccff;
+    float:left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+div{
+  text-align: center;
+  font-size: 55px;
+}
