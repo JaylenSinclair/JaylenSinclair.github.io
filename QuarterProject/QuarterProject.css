@@ -1,0 +1,140 @@
+
+body{
+background-image:url(background.jpg);
+background-size: cover;
+width: 960px;
+}
+
+
+ul.nav{
+  background-color: #ffffff;
+  display: inline;
+  position: inherit;
+  justify-content: center;
+
+}
+
+p.new{
+  font-family: sans-serif;
+  position: absolute;
+  top: 200px;
+  left: 480px;
+}
+
+li.nav{
+  display: inline;
+  padding: 3px;
+  font-weight: 200;
+
+}
+
+div.nav{
+  background-color:#ffffff;
+  width: 300px;
+  height: 37px;
+  text-align: center;
+  position: absolute;
+  top: 20px;
+  left: 330px;
+  justify-content: center;
+
+}
+
+img.first{
+  display: inline;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 10px;
+}
+
+img.third{
+  position: absolute;
+  top: 100px;
+  right: 200px;
+}
+
+div.container{
+  background-color: #ffffff;
+  display: inline-block;
+  height: 290px;
+  width: 270px;
+  padding-left: 20px;
+  text-align: center;
+  font-family: fantasy;
+}
+
+div.paragraph{
+  background-color: #0b8a00;
+  font-family: serif;
+  padding: 5px;
+  font-size: 20px;
+  text-indent: 3em;
+  width: 780px;
+  position: relative;
+  left: 90px;
+}
+
+table.stats{
+  background-color: #ffffff;
+  position: absolute;
+  top: 75px;
+  left: 15px;
+  width: 600px;
+}
+
+th{
+  height: 175px;
+  width: 140px;
+  border-color: #000000;
+  border-style: solid;
+}
+
+td{
+  border-style: solid;
+  border-color: #000000;
+  text-align: center;
+  padding: 10px;
+}
+
+tr.messi:hover{
+  background-color: #0011a7;
+}
+
+tr.lewa:hover{
+  background-color: #ff0000;
+}
+
+tr.cris:hover {
+  background-color: #333333;
+  font-family: sans-serif;
+
+}
+div.floater{
+  float: left;
+  padding: 5px;
+  width: 300px;
+  position: relative;
+  top: 100px;
+  left: 50px;
+}
+
+tr.neymar:hover{
+  background-color: #e80207;
+}
+tr.kane:hover{
+  background-color: #92a3d6;
+}
+tr.salah:hover{
+  background-color: #e52c00;
+}
+
+ul.last{
+  background-color: #ffffff;
+  border-color: #000000;
+  list-style-type: disc;
+  position: absolute;
+  top: 370px;
+  left: 90px;
+  border-style: dotted;
+  padding: 18px;
+}
